@@ -1,6 +1,10 @@
 The NERDTree
 =============
 
+This fork of NERDTree is made to improve its usage with french bépo keyboard layout.
+The main change consists of a new key mapping for moving inside the menu (`jk` → `ts`).
+Suggestions for further improvements are appreciated.
+
 Introduction
 ------------
 
