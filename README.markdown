@@ -24,8 +24,8 @@ Below are just some of the methods for installing NERDTree. Do not follow all of
 If you are using VIM version 8 or higher you can use its built-in package management; see `:help packages` for more information. Just run these commands in your terminal:
 
 ```bash
-git clone https://github.com/scrooloose/nerdtree.git ~/.vim/pack/vendor/start/nerdtree
-vim -u NONE -c "helptags ~/.vim/pack/vendor/start/nerdtree/doc" -c q
+git clone https://github.com/sticmac/nerdtree-bepo.git ~/.vim/pack/vendor/start/nerdtree-bepo
+vim -u NONE -c "helptags ~/.vim/pack/vendor/start/nerdtree-bepo/doc" -c q
 ```
 
 Otherwise, these are some of the several 3rd-party plugin managers you can choose from. Be sure you read the instructions for your chosen plugin, as there typically are additional steps you nee d to take.
@@ -34,7 +34,7 @@ Otherwise, these are some of the several 3rd-party plugin managers you can choos
 
 In the terminal,
 ```bash
-git clone https://github.com/scrooloose/nerdtree.git ~/.vim/bundle/nerdtree
+git clone https://github.com/sticmac/nerdtree-bepo.git ~/.vim/bundle/nerdtree-bepo
 ```
 In your vimrc,
 ```vim
@@ -43,25 +43,25 @@ syntax on
 filetype plugin indent on
 ```
 
-Then reload vim, run `:helptags ~/.vim/bundle/nerdtree/doc/` or `:Helptags`.
+Then reload vim, run `:helptags ~/.vim/bundle/nerdtree-bepo/doc/` or `:Helptags`.
 
 #### [Vundle.vim](https://github.com/VundleVim/Vundle.vim)
 ```vim
 call vundle#begin()
-Plugin 'scrooloose/nerdtree'
+Plugin 'sticmac/nerdtree-bepo'
 call vundle#end()
 ```
 
 #### [vim-plug](https://github.com/junegunn/vim-plug)
 ```vim
 call plug#begin()
-Plug 'scrooloose/nerdtree'
+Plug 'sticmac/nerdtree-bepo'
 call plug#end()
 ```
 
 #### [apt-vim](https://github.com/egalpin/apt-vim)
 ```bash
-apt-vim install -y https://github.com/scrooloose/nerdtree.git
+apt-vim install -y https://github.com/sticmac/nerdtree-bepo.git
 ```
 
 F.A.Q. (here, and in the [Wiki](https://github.com/scrooloose/nerdtree/wiki))
